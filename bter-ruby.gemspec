@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
     'https://github.com/zisismaras/bter-ruby'
   s.license       = 'MIT'
 
+  s.add_dependency "mechanize"
   s.add_dependency "json", '~> 1.8', '>= 1.8.1'
-  s.add_dependency "typhoeus", '~> 0.6', '>= 0.6.7'
-  s.add_dependency "logger", '~> 1.2', '>= 1.2.8'
+  #s.add_dependency "logger", '~> 1.2', '>= 1.2.8'
 end

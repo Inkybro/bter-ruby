@@ -1,11 +1,10 @@
 require 'bundler/setup'
-require 'json'
-require 'typhoeus'
+require 'mechanize'
+require 'uri'
 require 'openssl'
+require 'json'
 
-require_relative 'bter/public.rb'
-require_relative 'bter/trading.rb'
-require_relative 'bter/request_logger.rb'
+require_relative 'bter/api.rb'
 
 module Bter
   
